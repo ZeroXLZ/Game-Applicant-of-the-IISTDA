@@ -60,12 +60,8 @@
      <Compile Include="Assets\Scripts\CharEnter.cs" />
      <Compile Include="Assets\Scripts\Moving.cs" />
      <Compile Include="Assets\Scripts\SceneCh.cs" />
-     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
-     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
-     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
-     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
-     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />
+     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+     <None Include="Assets\Day-Night Skyboxes\readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Systemf/Desktop/Programs/Unity/2019.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class SceneCh : MonoBehaviour
 {
     public string SceneName;
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F))
         {
             SceneManager.LoadScene(SceneName);
         }
