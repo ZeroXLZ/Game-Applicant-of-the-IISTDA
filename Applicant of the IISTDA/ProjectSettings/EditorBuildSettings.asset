@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/WorkingZone[Restricted].unity
+    guid: 6eee6e3a8daf92741ab58c4cdd53eb37
+  - enabled: 1
     path: Assets/Scenes/Hall.unity
     guid: ebb861ac2ffc6764f916759a7e9cd3b3
   - enabled: 1

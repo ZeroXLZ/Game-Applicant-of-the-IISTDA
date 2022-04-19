@@ -55,13 +55,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
+     <Compile Include="Assets\Downloaded\CollegeStudent\Demo\DemoCollegeStudentController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CharEnter.cs" />
+     <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\Moving.cs" />
+     <Compile Include="Assets\Scripts\Saving system.cs" />
      <Compile Include="Assets\Scripts\SceneCh.cs" />
-     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
-     <None Include="Assets\Day-Night Skyboxes\readme.txt" />
+     <Compile Include="Assets\Scripts\UI Behaviour.cs" />
+     <None Include="Assets\Downloaded\VertexColorCoffeeProps\Assets\Shaders\UnlitVertexColor.shader" />
+     <None Include="Assets\Downloaded\VertexColorCoffeeProps\Assets\Shaders\StandardLightingVertexColor.shader" />
+     <None Include="Assets\Downloaded\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
+     <None Include="Assets\Downloaded\VertexColorCoffeeProps\Assets\Shaders\RimLightTransparent.shader" />
+     <None Include="Assets\Downloaded\Day-Night Skyboxes\readme.txt" />
+     <None Include="Assets\Downloaded\VertexColorCoffeeProps\Documentation.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Systemf/Desktop/Programs/Unity/2019.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -602,6 +609,15 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.SpriteShape.Editor">
  <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
  </Reference>
@@ -655,6 +671,9 @@
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>D:/Games/Unity Projects/Git/Applicant of the IISTDA/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>

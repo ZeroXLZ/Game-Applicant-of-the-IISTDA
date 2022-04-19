@@ -12,4 +12,18 @@ public class SceneCh : MonoBehaviour
             SceneManager.LoadScene(SceneName);
         }
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            UIBehaviour.ShowHint();
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            UIBehaviour.CloseHint();
+        }
+    }
 }
