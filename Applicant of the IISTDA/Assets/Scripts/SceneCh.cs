@@ -9,21 +9,7 @@ public class SceneCh : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F))
         {
-            SceneManager.LoadScene(SceneName);
-        }
-    }
-    void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
-        {
-            UIBehaviour.ShowHint();
-        }
-    }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            UIBehaviour.CloseHint();
+            Effects.FadeScreen(Color.black, 0, 1, 1, () => SceneManager.LoadScene(SceneName));
         }
     }
 }

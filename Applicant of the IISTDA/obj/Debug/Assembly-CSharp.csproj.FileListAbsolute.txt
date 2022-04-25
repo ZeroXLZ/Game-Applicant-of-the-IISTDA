@@ -634,3 +634,7 @@ D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProBuil
 D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProBuilder.KdTree.pdb
 D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.Settings.Editor.pdb
 D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProBuilder.Stl.pdb
+D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProGrids.dll
+D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProGrids.Editor.dll
+D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProGrids.pdb
+D:\Games\Unity Projects\Git\Applicant of the IISTDA\Temp\bin\Debug\Unity.ProGrids.Editor.pdb

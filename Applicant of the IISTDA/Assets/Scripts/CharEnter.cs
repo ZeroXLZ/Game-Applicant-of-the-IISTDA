@@ -8,7 +8,7 @@ public class CharEnter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(player);
+        //Instantiate(player);
     }
 
     // Update is called once per frame
